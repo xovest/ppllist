@@ -10,7 +10,7 @@ export const getStaticProps = async () => {
       ppl: data
     }
   };
-}
+};
 
 const People = ({ ppl }) => {
   return (

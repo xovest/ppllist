@@ -10,7 +10,7 @@ const NotFound = () => {
       // router.go(-1) = go to prev pg
       router.push('/');
     }, 3000);    
-  }, []);
+  }, [router]);
 
   return (
     <div className="not-found">
