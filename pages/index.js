@@ -8,14 +8,12 @@ import Link from 'next/link'
 export default function Home() {
   return (
     <div>
-      <Navbar />
       <h1>yo</h1>
       <p>This is something that should be a paragraph so im just adding words just for the record</p>
       <p>This is another something that should be a paragraph so im just adding words just for the record</p>
       <Link href="/people">
         <a>See Ppl Listing</a>
       </Link>
-      <Footer />
     </div>
   )
 }
